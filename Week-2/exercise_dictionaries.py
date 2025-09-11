@@ -13,3 +13,7 @@ counts = dict()
 for day in days:
     counts[day] = counts.get(day, 0) + 1
 print(counts)
+
+counts = { 'quincy' : 1 , 'mrugesh' : 42, 'beau': 100, '0': 10}
+counts['quincy'] = counts['quincy'] + 1
+print(counts.get('quincy', 0))
