@@ -16,7 +16,7 @@ print(counts)
 
 print()
 print()
-
+#Hecho por mí, mejorado
 fhand = open("C:/Users/57300/OneDrive/Documentos/GitHub/Learning-Python/Week-2/mbox-short.txt")
 counts = dict()
 for line in fhand:
